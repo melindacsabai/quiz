@@ -1,0 +1,142 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: 10px 5px 5px black;
+    cursor: pointer;
+}
+
+#kerdesek{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content span{
+    width: 400px;
+    padding: 3px 0 3px 0;
+    text-align: center;
+    font-size: 20px;
+    margin: 8px 0 8px 0;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+#content span:hover{
+    cursor: pointer;
+    background-color: rgb(169, 221, 245);
+    box-shadow: 2px 2px 2px black;
+    
+}
+#content #kerdes{
+    background-color: rgb(194, 234, 248);
+    width: 600px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    font-style: bold;
+    padding: 3px 0 3px 0;
+}
+
+#content #kerdes:hover{
+    cursor:auto;
+    box-shadow: none;
+}
+
+#tovabb_btn,#osszesit_btn{
+    margin: 30px 0 20px 0;
+}
+#osszesit_btn{
+    display: none;
+}
+
+.eredmeny{
+    display: flex;
+}
+
+.valaszok{
+    display: flex;
+    flex-direction: column;
+}
+.selected {
+    background-color: rgb(194, 234, 248);
+    border:  2px solid  rgb(194, 234, 248);
+    box-shadow: 5px 5px 5px black
+}
+
+#helyes{
+    background-color: rgb(152, 241, 111);
+    margin: 5px;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(53, 165, 1);
+}
+#helytelen{
+    background-color: rgb(241, 141, 141);
+    margin: 5px;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    color:rgb(206, 3, 3);
+
+}
+
+#stopper{
+    width: 200px;
+    height: 30px;
+    font-size: 30px;
+    padding: 2px 0 3px 0;
+    text-align: center;
+    box-shadow: 2px 5px 5px black;
+    background-color: rgb(202, 202, 202);
+    border-radius: 5px;
+}
+
+#score{
+    display: none;
+}
+
+
+#ujra{
+    margin: 20px 0 0 0 ;
+    display: none;
+}
+#osszesites{
+    
+    display: none;
+    margin: 5px;
+    padding: 20px 20px 30px 20px;
+    font-size: 30px;
+   border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.jo{
+    border: 2px solid green;
+    background-color: lightgreen;
+}
+.rossz{
+    border : 2px solid red; 
+    background-color: #FFCCCB;
+}
+.jolenne{
+    border: 5px solid green;
+    background-color: rgb(208, 255, 208);
+}
+.top-layer{
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    position: absolute;
+}
